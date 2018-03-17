@@ -1,0 +1,28 @@
+@import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+.table-striped > tbody > tr:nth-child(4n+3) > td, .table-striped > tbody > tr:nth-child(4n+4) > td  {
+    background-color: AliceBlue ;
+}
+
+.table-striped > tbody > tr:nth-child(4n+1) > td, .table-striped > tbody > tr:nth-child(4n+2) > td  {
+    background-color: MintCream;
+}
+
+.table.table-borderless td, .table.table-borderless th {
+    border: 0 !important;
+}
+
+.table.table-borderless {
+    margin-bottom: 0;
+}
+body {
+    background-color: AliceBlue;
+    padding-top: 20px;
+}
+table {
+    table-layout: fixed;
+}
+
+td.view-details{
+    padding-right: 25px;
+}
