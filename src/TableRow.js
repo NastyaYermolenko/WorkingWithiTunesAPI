@@ -6,7 +6,7 @@ class TableRow extends Component {
         super();
         this.state = {class: "glyphicon-plus"};
     }
-    static changeGlyphicon(){
+    changeGlyphicon(){
         let $closed = $('tr[aria-expanded=false]>td>h1>span');
         let $opened = $('tr[aria-expanded=true]>td>h1>span');
         $closed.removeClass();
